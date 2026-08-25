@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SPPG CIBADAK110 - Menu Makan Bergizi Gratis." />
+    <meta name="theme-color" content="#7ed2ff" />
+    <meta property="og:title" content="SPPG CIBADAK110 | Menu Bergizi Gratis" />
+    <meta property="og:description" content="Informasi menu dan kandungan gizi SPPG CIBADAK110." />
+    <meta property="og:type" content="website" />
+    <title>SPPG CIBADAK110 | Menu Bergizi Gratis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">S</div>
+          <div class="brand-text">
+            <strong>SPPG</strong>
+            <span>CIBADAK110</span>
+          </div>
+        </div>
+
+        <button class="scan-btn" type="button">Scan QR</button>
+      </header>
+
+      <main class="board" id="home">
+        <section class="hero panel reveal">
+          <div class="hero-copy">
+            <span class="mini-tag">Digital Nutrition Menu</span>
+            <h1>
+              <span class="h-small">SPPG</span>
+              <span class="h-big">CIBADAK110</span>
+            </h1>
+            <h2>Menu Makan <span>Bergizi</span> Gratis</h2>
+            <p>
+              Informasi menu, komposisi, dan kandungan gizi makanan yang disediakan untuk mendukung kebutuhan energi dan kesehatan harian masyarakat.
+            </p>
+
+            <div class="cta-row">
+              <a href="#menu" class="primary-btn">Lihat Menu</a>
+              <a href="#gizi" class="secondary-btn">Info Gizi</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="float-badge badge-one">Seimbang</div>
+            <div class="food-frame">
+              <img src="assets/menu-illustration.svg" alt="Menu bergizi SPPG CIBADAK110" />
+            </div>
+            <div class="float-badge badge-two">Energi + Gizi</div>
+          </div>
+        </section>
+
+        <section class="stats-grid reveal" aria-label="Informasi ringkas menu">
+          <article class="stat-card">
+            <div class="stat-icon icon-green">🍱</div>
+            <div>
+              <strong>4 Komponen</strong>
+              <span>Dalam satu porsi</span>
+            </div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-icon icon-gold">🥚</div>
+            <div>
+              <strong>22 g</strong>
+              <span>Protein</span>
+            </div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-icon icon-cream">🌿</div>
+            <div>
+              <strong>8 g</strong>
+              <span>Serat</span>
+            </div>
+          </article>
+          <article class="stat-card">
+            <div class="stat-icon icon-peach">💛</div>
+            <div>
+              <strong>450 kcal</strong>
+              <span>Energi harian</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="content-panel panel reveal" id="menu">
+          <div class="section-head">
+            <span class="mini-tag">Menu Hari Ini</span>
+            <h3>Menu yang <span>seimbang</span> dan lengkap</h3>
+          </div>
+          <div class="menu-grid" id="menu-items"></div>
+        </section>
+
+        <section class="about-panel panel reveal" id="gizi">
+          <div class="about-image">
+            <div class="image-wrap">
+              <img src="assets/menu-illustration.svg" alt="Visual menu bergizi" />
+            </div>
+          </div>
+
+          <div class="about-copy">
+            <span class="mini-tag">Informasi Gizi</span>
+            <h3>Satu porsi, <span>lengkap dan seimbang</span></h3>
+            <p>
+              Nilai di bawah merupakan contoh informasi nutrisi yang dapat disesuaikan berdasarkan data menu aktual SPPG CIBADAK110.
+            </p>
+
+            <div class="nutrition-grid" id="nutrition-grid"></div>
+          </div>
+        </section>
+
+        <section class="catalog-panel panel reveal">
+          <div class="section-head">
+            <span class="mini-tag">Komposisi Menu</span>
+            <h3>Komponen utama <span>yang mendukung kesehatan</span></h3>
+          </div>
+
+          <div class="composition-grid" id="composition-list"></div>
+        </section>
+
+        <section class="contact-panel panel reveal" id="kontak">
+          <div class="contact-copy">
+            <span class="mini-tag">Scan untuk Informasi</span>
+            <h3>Kenali menu dengan <span>satu scan</span></h3>
+            <p>
+              Hanya dengan pemindaian kode QR, masyarakat dapat melihat menu harian, komposisi, hingga kandungan gizi SPPG CIBADAK110.
+            </p>
+
+            <div id="social-links" class="social-list"></div>
+          </div>
+
+          <div class="qr-wrap">
+            <div class="qr-box">
+              <div class="qr-label">SPPG CIBADAK110</div>
+              <div id="qrcode" aria-label="QR code informasi menu"></div>
+              <strong>Menu Makan Bergizi Gratis</strong>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer-panel reveal">
+        <div class="footer-brand">
+          <div class="brand-mark small">S</div>
+          <div>
+            <strong>SPPG CIBADAK110</strong>
+            <span>Menu Makan Bergizi Gratis</span>
+          </div>
+        </div>
+
+        <div class="footer-meta">
+          <span>Instagram: @sppgcibadak110</span>
+          <span>© <span id="year"></span> SPPG CIBADAK110</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
